@@ -33,10 +33,14 @@ body {
   color: white;
   text-decoration: none;
   font-size: 16px;
+  display: block; /* Makes the anchor fill the clickable area */
+  padding: 10px 15px;
+  border-radius: 20px; /* Rounded rectangle shape */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
 .sidebar ul li a:hover {
-  text-decoration: underline;
+  background-color: #3399ff; /* Light blue */
 }
 
 /* Main content styles */
